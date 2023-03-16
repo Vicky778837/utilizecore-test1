@@ -1,0 +1,15 @@
+current directory: /home/user/Desktop/ROR/utilizecore-test1-main/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.6/ext/bootsnap
+/home/user/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/user/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20230314-8130-hkxl22.rb extconf.rb
+creating Makefile
+
+current directory: /home/user/Desktop/ROR/utilizecore-test1-main/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.6/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/user/Desktop/ROR/utilizecore-test1-main/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.6/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/user/Desktop/ROR/utilizecore-test1-main/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.6/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20230314-8130-kbycjs/bootsnap
