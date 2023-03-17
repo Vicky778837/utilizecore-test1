@@ -6,6 +6,6 @@ class SearchController < ApplicationController
                  Parcel.search_by_parcel_number(params[:search])
                else
                 []
-                 end
+                end
   end
 end
