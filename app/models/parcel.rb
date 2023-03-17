@@ -5,6 +5,7 @@ class Parcel < ApplicationRecord
     before_create :generate_parcel_number
 
  before_create :send_parcel_notification
+ before_update :send_parcel_notification
 
   STATUS = ['Sent', 'In Transit', 'Delivered'].freeze
   PAYMENT_MODE = %w[COD Prepaid].freeze
